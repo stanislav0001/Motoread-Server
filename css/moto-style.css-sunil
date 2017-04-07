@@ -1,0 +1,576 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,700');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Oswald', sans-serif;
+}
+h1{
+  font-size: 80px;
+  color:#000;
+}
+h2{
+
+}
+h3{
+  font-size: 30px;
+}
+h4{
+
+}
+h5{
+
+}
+h6{
+
+}
+img{
+	max-width: 100%;
+	display: block;
+}
+ul, li{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+a, a:focus{
+	outline: 0 none;
+	color: #6e6e6e;
+	text-decoration: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="phone"],
+input[type="number"],
+input[type="password"],
+input[type="color"],
+input[type="text"]{
+	background-color: #d9d9d9;
+	border-radius: 7px;
+	-o-border-radius: 7px;
+	-ms-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	padding: 10px 15px;
+	border: 0 none;
+	width: 100%;
+	color: #606060;
+	font-size: 15px;
+	font-family: 'Oswald', sans-serif;
+}
+::-webkit-input-placeholder {
+   color: #606060;
+   opacity: 1;
+}
+:-moz-placeholder { /* Firefox 18- */
+   color: #606060;
+   opacity: 1;  
+}
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #606060; 
+   opacity: 1; 
+}
+:-ms-input-placeholder {  
+   color: #606060;
+   opacity: 1;  
+}
+.smooth,
+.needHelpInner > a,
+.btn,
+.moto-menu ul li a:after,
+.footer-social > li a {
+	transition: all 300ms ease-in-out 0s;
+	-o-transition: all 300ms ease-in-out 0s;
+	-ms-transition: all 300ms ease-in-out 0s;
+	-moz-transition: all 300ms ease-in-out 0s;
+	-webkit-transition: all 300ms ease-in-out 0s;
+}
+body{
+	font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+	vertical-align: baseline;
+	line-height: normal;
+	color: #444;
+	overflow-x:hidden;
+  padding-bottom: 99px; 
+}
+
+
+/*
+======================================================================
+  Header
+======================================================================
+*/
+header {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+  -ms-box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+  padding: 12px 0;
+  position: relative;
+}
+.moto-menu ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+.moto-menu ul {
+  margin: 20px 0;
+}
+.moto-menu ul li a {
+  color: #575757;
+  display: block;
+  font-size: 22px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+}
+.moto-menu ul li a:hover{
+	color: #000;
+}
+.moto-menu ul li a:after{
+	border-bottom: 2px solid #000;
+	content: "";
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left:0; 
+	width: 0;
+}
+.moto-menu ul li a:hover:after{
+    width: 100%;
+}
+.moto-logo a {
+  display: inline-block;
+}
+.moto-logo img {
+  display: inline-block;
+  max-width: 100px;
+  vertical-align: middle;
+}
+.moto-logo span,
+.footer-logo span {
+  color: #000000;
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 41px;
+  font-weight: 300;
+  margin-left: 12px;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+
+.moto-banner {
+  background: #000000 none repeat scroll 0 0;
+  padding: 60px 0 0;
+}
+.motoread-mobile > img {
+  display: inline-block;
+  margin-right: 80px;
+}
+.moto-banner h1 {
+  color: #ffffff;
+  font-size: 80px;
+  margin: 35px 0 0;
+}
+
+
+.storeBtn img {
+  max-height: 70px;
+  display: inline-block;
+}
+.app-store-btns {
+  background-color: #dbba47;
+  background-image:url("../images/Triangles.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 56px 0;
+}
+.app-store-btns-inner {
+  padding: 6px 0;
+}
+
+/* Article Section start here */
+.articleSec-right {
+  padding: 20px 0 0;
+}
+.articleSec-right img {
+  display: block;
+  margin: 0 auto 20px;
+}
+.articleSec-right h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: normal;
+  line-height: 1.4;
+}
+.articleSec h1 {
+  margin: 0;
+}
+.articleSec {
+  padding: 70px 0;
+  border-bottom:1px solid #444; 
+}
+.articleSyns .articleSec-right img {
+  max-width: 255px;
+}
+.listenArticle h3 {
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.7;
+  margin: 60px 0;
+  text-align: center;
+}
+
+
+/* Need Help Section start here */
+.needHelp {
+  background: #2f2f2f none repeat scroll 0 0;
+  padding: 40px 0;
+  text-align: center;
+}
+.needHelpInner {
+  border: 1px solid #454545;
+  border-radius: 6px;
+  margin: 0 auto;
+  max-width: 930px;
+  padding: 50px 20px;
+}
+.needHelpInner h3 {
+  color: #ffffff;
+  margin: 0 0 35px;
+}
+.needHelpInner > a {
+  background: #47e147 none repeat scroll 0 0;
+  border-radius: 100px;
+  color: #ffffff;
+  display: block;
+  margin: 0 auto;
+  max-width: 270px;
+  padding: 10px 20px;
+}
+.needHelpInner > a:hover{
+  background: #000 none repeat scroll 0 0;
+  text-decoration: none;
+}
+
+
+/*footer style start here*/
+.footer-social > li {
+  color: #ffffff;
+  display: inline-block;
+  margin: 0 10px;
+}
+.footer-social > li {
+  color: #ffffff;
+  display: inline-block;
+  margin: 0 10px;
+}
+.footer-social > li a {
+  color: #ffffff;
+  font-size: 22px;
+}
+.footer-social > li a:hover{
+	opacity: 0.7;
+}
+.footer-social {
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer {
+  background: #000000 none repeat scroll 0 0;
+  bottom: 0;
+  left: 0;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+.subscribe {
+  display: inline-block;
+
+}
+.subscribe input{
+	background: #fff;
+	max-width: 160px;
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+}
+.footer .container {
+	width: 100%;
+	max-width: 1366px;
+}
+.footer-logo img {
+  display: inline-block;
+  max-width: 86px;
+}
+.footer-left {
+  padding: 22px 0;
+}
+
+.subscribe button {
+  background: #2d2d2d none repeat scroll 0 0;
+  border-radius: 100px;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 12px;
+  padding: 6px 25px;
+  border: 1px solid transparent;
+}
+.subscribe button:hover{
+  border: 1px solid #fff;
+  color: #fff;
+}
+.subscribe {
+  display: inline-block;
+  margin-left: 25px;
+}
+.footer-logo span {
+  color: #ffffff;
+  font-size: 40px;
+}
+.footer-logo a {
+  display: inline-block;
+}
+.footer-logo {
+  padding: 3px 0;
+}
+
+/*
+======================================================================================
+  Login page
+======================================================================================
+*/
+.loginForm {
+  background: rgba(255, 255, 255, 0.4) none repeat scroll 0 0;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 50px;
+}
+.loginWrap {
+  background-color: #f1f1f1;
+  background-image: url('../images/login-bg.jpg');
+  background-repeat:no-repeat;
+  background-position: 0 0;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 70px 0;
+}
+.loginForm h3 {
+  margin: 0 0 25px;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+.loginForm input.form-control {
+  height: 44px;
+  background: transparent;
+  box-shadow: none;
+  border: 1px solid #ccc;
+}
+.loginForm label {
+  font-weight: normal;
+  margin: 0 0 5px;
+}
+.loginForm .btn {
+  background: #000000 none repeat scroll 0 0;
+  border: 0 none;
+  color: #ffffff;
+  display: block;
+  height: 44px;
+  width: 100%;
+  text-transform: uppercase;
+}
+.loginForm .btn:hover{
+  background: #2d2d2d;
+}
+/*19-Jan-2017*/
+#pagination_container .pagination .active > a {
+  background-color: #000000;
+  border: 1px solid #000000;
+  color: #ffffff;
+}
+#pagination_container .pagination a {
+  color: #6e6e6e;
+}
+#error_match {
+  color: #ff0000;
+  display: block;
+  font-size: 12px;
+  margin-top: 5px;
+}
+/*
+======================================================================================
+  My responsive style start here
+======================================================================================
+*/
+@media (max-width: 1199px) {
+h1,
+.moto-banner h1 {
+  font-size: 65px;
+}
+.listenArticle h3 {
+  margin: 15px 0;
+}
+}
+
+
+@media (max-width: 991px) {
+.footer-logo span {
+  font-size: 25px;
+}
+.footer-logo img {
+  max-width: 70px;
+}
+h1, .moto-banner h1 {
+	font-size: 50px;
+}
+.listenArticle h3 {
+  margin: 0;
+  font-size: 22px;
+}
+.articleSec-right h4 {
+  font-size: 20px;
+}
+.footer-logo {
+  padding: 12px 0;
+}
+.articleSec {
+  padding: 50px 0;
+}
+.moto-logo img {
+  max-width: 88px;
+}
+.moto-logo span {
+  font-size: 33px;
+}
+.moto-menu ul {
+  margin: 12px 0;
+}
+}
+
+@media (max-width: 767px) {
+.footer {
+  position: static;
+}
+body {
+  padding-bottom: 0px;
+}
+.moto-banner {
+  padding: 10px 0 0;
+  text-align: center;
+}
+.moto-banner h1 {
+  margin-bottom: 30px;
+}
+h1, .moto-banner h1 {
+  font-size: 45px;
+}
+.app-store-btns {
+  padding: 40px 0;
+  background-size: cover;
+}
+.storeBtn img {
+  margin-bottom: 25px;
+}
+.articleSec {  
+	padding: 40px 0;
+  text-align: center;
+}
+.articleSec h1 {
+  margin: 0 0 20px;
+}
+.footer-social {
+  display: block;
+  text-align: center;
+}
+.subscribe {
+  margin: 20px 0;
+  text-align: center;
+  display: block;
+}
+.footer-logo {
+  margin-bottom: 10px;
+  padding: 0;
+  text-align: center;
+}
+.motoread-mobile {
+  text-align: center;
+}
+.motoread-mobile img {
+  margin:0px;
+}
+footer .col-sm-4.pull-right {
+  float: none!important;
+}
+.footer-left {
+  padding: 0;
+}
+.footer {
+  padding: 15px 0 10px;
+}
+.subscribe button {
+  margin-left: 6px;
+}
+.footer-logo img {
+  max-width: 80px;
+}
+.footer-logo span {
+  font-size: 32px;
+}
+}
+
+
+@media (max-width: 640px) {
+
+		header .col-xs-6 {
+  display: block;
+  float: none;
+  width: 100%;
+}
+.moto-logo img {
+  display: inline-block;
+}
+header{
+	text-align: center;
+}
+.moto-menu {
+  text-align: center;
+}
+.moto-menu ul {
+  margin: 15px 0 5px;
+}
+header {
+  padding: 10px 0 5px;
+}
+
+.subscribe input {
+  margin-bottom: 7px;
+}
+}
+
+@media (max-width: 479px) {
+.loginForm {
+  padding: 40px 30px;
+}
+.loginWrap{
+  padding:50px 0;
+}
+}
